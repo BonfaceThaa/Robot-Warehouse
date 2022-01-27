@@ -1,11 +1,14 @@
 # Robot Warehouse script
 The script in the repo attempts to answer the robot, warehouse and crate problem.
 
-# Getting started
+## Getting started
 Run the following command to view and test the warehouse robot script.
 ```shell script
 $ python warehouse_robot.py
 ```
 
-# script explanation
+## script explanation
 The script has two main classes `Robot` and `Crate`. 
+
+## assumption
+* crate and robot can be on the same grid cell.

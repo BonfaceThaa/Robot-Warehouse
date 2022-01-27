@@ -117,12 +117,13 @@ class Crate:
 
 if __name__ == "__main__":
     c1 = Crate(1, [5, 5])
-    r1 = Robot([9, 0])
-    r1.move_commands('N N N N E E E E E')
-    r1.claw_commands('G')
-    r1.move_commands('S W S')
-    r1.claw_commands('D')
-    print("Crates positions", c1.crates)
-    print("Robot position: ", r1.current_position)
+    c1 = Crate(2, [0, 9])
+    # r1 = Robot([9, 0])
+    # r1.move_commands('N N N N E E E E E')
+    # r1.claw_commands('G')
+    # r1.move_commands('S W S')
+    # r1.claw_commands('D')
+    # print("Crates positions", c1.crates)
+    # print("Robot position: ", r1.current_position)
 
 
